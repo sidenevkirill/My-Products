@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="dark">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="naw_white">#FFFFFF</color>
+    <color name="dialogBottom">#F7F7F7</color>
+    <color name="dialogBottomMenuBackroundItem">#ffffff</color>
+</resources>

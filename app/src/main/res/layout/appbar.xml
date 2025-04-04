@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.appbar.AppBarLayout android:id="@+id/appbarlayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:liftOnScroll="false"
+    android:elevation="2dp"
+    app:elevation="2dp"
+    android:background="?attr/colorPrimary"
+    android:stateListAnimator="@null"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/materialToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="2dp"
+        android:background="?attr/colorPrimary"
+        app:elevation="2dp"
+        android:minHeight="?attr/actionBarSize"
+        app:title="@string/app_name"
+        app:titleTextColor="?materialToolbarBarStyle"
+        android:theme="?attr/actionBarTheme" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:alpha="0.6"
+        android:background="#EDEDED" />
+
+</com.google.android.material.appbar.AppBarLayout>

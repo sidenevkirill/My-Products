@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?selectableItemBackground"
+    android:gravity="center_vertical"
+    android:padding="@dimen/item_padding">
+
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="@dimen/icon_size"
+        android:layout_height="@dimen/icon_size"
+        android:src="@drawable/schedule_24px"
+        app:tint="@color/material_on_surface_emphasis_medium" />
+
+    <TextView
+        android:id="@+id/textViewItem"
+        android:layout_marginHorizontal="@dimen/navigation_item_text_padding"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:text="История"
+        android:layout_weight="1" />
+
+</LinearLayout>

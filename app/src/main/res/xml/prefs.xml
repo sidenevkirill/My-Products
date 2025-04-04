@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="Основные">
+
+        <SwitchPreferenceCompat
+            android:defaultValue="false"
+            android:key="dark_mode"
+            android:title="Ночной режим" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="О приложении">
+
+        <Preference
+            android:key="channel"
+            android:summary="Railcinec"
+            android:title="Телеграм канал" />
+
+        <Preference
+            android:key="developer"
+            android:summary="Сиденёв Кирилл"
+            android:title="Разработчик" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Аккаунт">
+
+        <Preference
+            android:key="logout"
+            android:title="Выйти из аккаунта" />
+    </PreferenceCategory>
+</PreferenceScreen>

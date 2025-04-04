@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="materialBarStyle" format="reference" />
+    <attr name="materialToolbarBarStyle" format="reference" />
+    <attr name="backgroundNav" format="reference" />
+    <attr name="colorNavigationView" format="reference" />
+    <attr name="textColor" format="reference" />
+</resources>

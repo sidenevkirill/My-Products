@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?colorPrimaryVariant"
+    xmlns:ads="http://schemas.android.com/tools"
+    android:orientation="vertical">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?colorPrimaryVariant"
+        app:layout_scrollFlags="scroll|enterAlways"
+        android:elevation="0dp"
+        android:translationZ="0.1dp"
+        app:elevation="2dp">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            app:layout_scrollFlags="scroll|enterAlways"
+            app:menu="@menu/settings"
+            app:title="Главная"
+            android:background="#00000000"
+            android:fitsSystemWindows="true" />
+
+        <com.google.android.material.tabs.TabLayout
+            android:id="@+id/tablayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?colorPrimaryVariant"
+            app:tabTextColor="#7E7E7E"
+            app:tabIndicatorColor="#000000"
+            app:tabSelectedTextColor="?android:textColorPrimary" />
+
+        <View
+            android:id="@+id/rv7"
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_below="@id/toolbar"
+            android:background="#26000000" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="?colorPrimaryVariant"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"/>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:layout_marginRight="16dp"
+        android:layout_gravity="bottom|right"
+        android:backgroundTint="?colorNavigationView"
+        app:layout_behavior="com.google.android.material.behavior.HideBottomViewOnScrollBehavior"
+        app:fabSize="normal"
+        app:layout_constraintBottom_toTopOf="@+id/button_home"
+        app:layout_constraintEnd_toEndOf="@+id/button_home"
+        app:layout_constraintStart_toStartOf="@+id/button_home"
+        android:src="@drawable/add_24px" />
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

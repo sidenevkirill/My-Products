@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/item_home"
+        android:icon="@drawable/item_home_selector"
+        android:title="Главная" />
+
+    <item
+        android:id="@+id/item_friends"
+        android:icon="@drawable/ic_vector_round_search"
+        android:title="Поиск" />
+
+    <item
+        android:id="@+id/item_local_music"
+        android:icon="@drawable/item_search_selector"
+        android:title="История" />
+
+    <item
+        android:id="@+id/item_search"
+        android:icon="@drawable/item_menu_selector"
+        android:title="Меню" />
+</menu>
